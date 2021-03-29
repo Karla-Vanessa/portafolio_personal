@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Personal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta name="description" content="Portafolio Personal" />
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"/>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <!-- Icono -->
+    <link rel="icon" type="imagen/png" href="img/icono.png" />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Menu de navegacion -->
+    <nav class="navegacion">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img src="img/Logo.png" alt="logo" />
+      </a>
+      <!-- Menu btn -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!-- Menu -->
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seccion del Encabezado Principal -->
+    <section id="inicio">
+      <!-- Texto principal -->
+      <div class="inicio-titulo">
+        <h1>
+          Me llamo <span class="inicio-color">Karla Vanessa Olvera Pérez</span>
+        </h1>
+        <p>Diseñadora Web</p>
+        <!-- Botones -->
+        <div class="inicio-btn">
+          <a href="img/files/CV.pdf" download="CV" class="descargar-cv">Descargar CV</a>
+          <a target="_blank" href="https://wa.me/525525415726" class="contacto-btn">Contacto</a>
+        </div>
+      </div>
+
+      <!-- Imagen perfil -->
+      <div class="perfil">
+        <img src="img/perfil1.png" alt="foto perfil" />
+      </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+    <section class="about seccion" id="about">
+      <h2 class="seccion-titulo">Sobre mi</h2>
+
+      <div class="about__contenedor bd-grid">
+        <div class="about__img">
+          <img src="img/web.png" alt="imagen" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitulo">Soy Karla Vanessa</h2>
+          <p class="about__texto">
+            Tengo 25 años y vivo en la Ciudad de México (CDMX), siempre me
+            ha interesado el diseño UI/UX y el desarrollo web, tome una especialidad (línea curricular)
+            en diseño en la universidad.
+            tengo 1 y medio de experiencia en el diseño web y desde que salí de la
+            universidad y hasta ahora no he dejado de seguir aprendiendo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Skills -->
+    <section class="skills seccion" id="skills">
+      <h2 class="seccion-titulo titulo-skills">Skills</h2>
+
+      <div class="skills__contenedor bd-grid">
+        <div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__barra skills__html"></div>
+            <div>
+              <span class="skills__porcentaje">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-css3-alt skills__icon"></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__barra skills__css"></div>
+            <div>
+              <span class="skills__porcentaje">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-js skills__icon"></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div class="skills__barra skills__js"></div>
+            <div>
+              <span class="skills__porcentaje">25%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fas fa-paint-brush skills__icon"></i>
+              <span class="skills__name">UX/UI</span>
+            </div>
+            <div class="skills__barra skills__ux"></div>
+            <div>
+              <span class="skills__porcentaje">60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-bootstrap skills__icon"></i>
+              <span class="skills__name">BOOTSTRAP</span>
+            </div>
+            <div class="skills__barra skills__bootstrap"></div>
+            <div>
+              <span class="skills__porcentaje">60%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-wordpress skills__icon"></i>
+              <span class="skills__name">WORDPRESS</span>
+            </div>
+            <div class="skills__barra skills__wordpress"></div>
+            <div>
+              <span class="skills__porcentaje">40%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fab fa-figma skills__icon"></i>
+              <span class="skills__name">FIGMA/ADOBE XD</span>
+            </div>
+            <div class="skills__barra skills__figma"></div>
+            <div>
+              <span class="skills__porcentaje">60%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__nombre">
+              <i class="fas fa-video skills__icon"></i>
+              <span class="skills__name">FILMORA 9</span>
+            </div>
+            <div class="skills__barra skills__filmora"></div>
+            <div>
+              <span class="skills__porcentaje">45%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Proyectos -->
+    <div class="contenedor" id="portafolio">
+      <h2 class="seccion-titulo">Proyectos</h2>
+
+      <div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Infografías</a>
+				<a href="#">Maquetas</a>
+				<a href="#">Diseño de Logos</a>
+				<a href="#">Diseño Web</a>
+			</div>
+
+      <section class="grid" id="grid">
+        <div class="item" 
+           data-categoria="infografias"
+           data-etiquetas="cce"
+           data-descripcion="Infografía para la la página de Facebook de cce"
+        >
+          <div class="item-contenido">
+            <img src="img/infografias/1.jpg" alt="">
+            <div class="item-texto">
+               <a class="item-contenido-texto" target="_blank" href="https://www.facebook.com/karlaa.vanessaaa" >
+              <strong>
+                
+              </strong>
+              <span class="icons">
+               
+              </span>
+            </a>
+            </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="maquetas"
+           data-etiquetas="mockup"
+           data-descripcion="Maqueta para la página de portafolio"
+        >
+          <div class="item-contenido">
+            <img src="img/maquetas/1.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="https://www.facebook.com/karlaa.vanessaaa" >
+             <strong>
+               
+             </strong>
+             <span class="icons">
+               
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="diseño de logos"
+           data-etiquetas="cce"
+           data-descripcion="Diseño de logo para el ERP de cce"
+        >
+          <div class="item-contenido">
+            <img src="img/logos/1.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="https://www.facebook.com/karlaa.vanessaaa" >
+             <strong>
+              
+             </strong>
+             <span class="icons">
+               
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="diseño web"
+           data-etiquetas="cce"
+           data-descripcion="Página web para CCE / HTML5 CSS3 JS bootstrap"
+        >
+          <div class="item-contenido">
+            <img src="img/web/6.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="#" >
+             <strong>
+               Cceejecutivos
+             </strong>
+             <span class="icons">
+               <i class="fas fa-arrow-circle-right"></i>
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="diseño web"
+           data-etiquetas="integra group"
+           data-descripcion="Página web para Integra Group / HTML5 CSS3 JS bootstrap"
+        >
+          <div class="item-contenido">
+            <img src="img/web/2.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="https://integra-group.netlify.app/" >
+             <strong>
+              Integra Group
+             </strong>
+             <span class="icons">
+               <i class="fas fa-arrow-circle-right"></i>
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="maquetas"
+           data-etiquetas="mockup"
+           data-descripcion="Maqueta para la página de CCE"
+        >
+          <div class="item-contenido">
+            <img src="img/maquetas/2.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="#" >
+             <strong>
+               
+             </strong>
+             <span class="icons">
+               
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="infografías"
+           data-etiquetas="cce"
+           data-descripcion="Infografía para la página de Facebbok de CCE"
+        >
+          <div class="item-contenido">
+            <img src="img/infografias/2.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="#" >
+             <strong>
+              
+             </strong>
+             <span class="icons">
+               
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item" 
+           data-categoria="infografías"
+           data-etiquetas="cce"
+           data-descripcion="Infografía para la página de Facebbok de CCE"
+        >
+          <div class="item-contenido">
+            <img src="img/infografias/3.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="#" >
+             <strong>
+               
+             </strong>
+             <span class="icons">
+              
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+  
+        <div class="item"
+           data-categoria="infografías"
+           data-etiquetas="cce"
+           data-descripcion="Infografía para la página de Facebook de CCE">
+          <div class="item-contenido">
+            <img src="img/infografias/4.jpg" alt="">
+            <div class="item-texto">
+              <a class="item-contenido-texto" target="_blank" href="#" >
+             <strong>
+               
+             </strong>
+             <span class="icons">
+               
+             </span>
+           </a>
+           </div> 
+          </div>
+        </div>
+
+        <div class="item"
+        data-categoria="maquetas"
+        data-etiquetas="mockup"
+        data-descripcion="Maqueta para la página de CCE">
+       <div class="item-contenido">
+         <img src="img/maquetas/2.jpg" alt="">
+         <div class="item-texto">
+          <a class="item-contenido-texto" target="_blank" href="#" >
+         <strong>
+           
+         </strong>
+         <span class="icons">
+           
+         </span>
+       </a>
+       </div> 
+       </div>
+     </div>
+
+     <div class="item"
+     data-categoria="diseño de logos"
+     data-etiquetas="cce"
+     data-descripcion="Propuesta de logo">
+    <div class="item-contenido">
+      <img src="img/logos/5.jpg" alt="">
+      <div class="item-texto">
+        <a class="item-contenido-texto" target="_blank" href="#" >
+       <strong>
+        
+       </strong>
+       <span class="icons">
+         
+       </span>
+     </a>
+     </div> 
+    </div>
+  </div>
+
+  <div class="item"
+  data-categoria="diseño web"
+  data-etiquetas="practica"
+  data-descripcion="Práctica / HTML5 CSS3">
+ <div class="item-contenido">
+   <img src="img/web/3.jpg" alt="">
+   <div class="item-texto">
+    <a class="item-contenido-texto" target="_blank" href="https://blog-de-cafe-proyecto1.netlify.app/" >
+   <strong>
+     Blog de Café
+   </strong>
+   <span class="icons">
+     <i class="fas fa-arrow-circle-right"></i>
+   </span>
+ </a>
+ </div> 
+ </div>
+</div>
+
+<div class="item"
+data-categoria="diseño web"
+data-etiquetas="web"
+data-descripcion="Práctica / HTML5 CSS3">
+<div class="item-contenido">
+ <img src="img/web/4.jpg" alt="">
+ <div class="item-texto">
+  <a class="item-contenido-texto" target="_blank" href="https://primer-proyecto-web1.netlify.app/" >
+ <strong>
+  Freelancer
+ </strong>
+ <span class="icons">
+   <i class="fas fa-arrow-circle-right"></i>
+ </span>
+</a>
+</div> 
+</div>
+</div>
+
+<div class="item"
+data-categoria="diseño web"
+data-etiquetas="web"
+data-descripcion="Práctica / HTML5 CSS3">
+<div class="item-contenido">
+ <img src="img/web/5.jpg" alt="">
+ <div class="item-texto">
+  <a class="item-contenido-texto" target="_blank" href="https://frontend-store-practica.netlify.app/" >
+ <strong>
+   Frontend Store
+ </strong>
+ <span class="icons">
+   <i class="fas fa-arrow-circle-right"></i>
+ </span>
+</a>
+</div> 
+</div>
+</div>
+
+<div class="item"
+data-categoria="diseño de logos"
+data-etiquetas="cce"
+data-descripcion="Propuesta de Logo para la página de Networking">
+<div class="item-contenido">
+ <img src="img/logos/4.jpg" alt="">
+ <div class="item-texto">
+  <a class="item-contenido-texto" target="_blank" href="#" >
+ <strong>
+   
+ </strong>
+ <span class="icons">
+  
+ </span>
+</a>
+</div> 
+</div>
+</div>
+
+      </section>
+
+      <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+          <img src="" alt="">
+        </div>
+        <p class="descripcion"></p>
+      </section>
+    </div>
+
+    <!-- Seccion Servicios -->
+    <section class="servicios" id="servicios">
+      <h2 class="seccion-titulo">Servicios</h2>
+      <p class="subtitulo">
+        Soluciones para sus proyectos Innovadores y Creativos
+      </p>
+
+      <div class="content">
+        <div class="serviciosBx">
+          <i class="fas fa-laptop icono"></i>
+          <h2>Diseño y Desarrollo Web</h2>
+          <p>
+            Diseño tu página, con base en tus necesidades 
+            comerciales, utilizando programación Nativa.
+          </p>
+        </div>
+
+        <div class="serviciosBx">
+          <i class="fas fa-paint-brush icono"></i>
+          <h2>Diseño UX/UI</h2>
+          <p>
+            Diseño tus Interfaces, con base en tus necesidades 
+            comerciales.
+          </p>
+        </div>
+
+        <div class="serviciosBx">
+          <i class="fas fa-drafting-compass icono"></i>
+          <h2>Diseño Gráfico</h2>
+          <p>
+            Diseño tus logos, infográfias o cualquier tipo de
+            diseño que necesites.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+    <section id="seccion-contacto" data-aos="fade-up">
+      <span>¿Tiene algun proyecto en mente?</span>
+      <div class="boton-contacto">
+        <a target="_blank" href="https://wa.me/525525415726">Contácteme</a>
+      </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <footer class="contenedor" id="contacto">
+      <div class="redes-sociales">
+        <div class="contenedor-icono">
+          <a href="https://wa.me/525525415726" target="_blank" class="twitter">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="contenedor-icono">
+          <a href="https://www.facebook.com/karlaa.vanessaaa"
+            target="_blank"
+            class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+        <div class="contenedor-icono">
+          <a href="https://www.linkedin.com/in/karla-vanessa-olvera-pérez-ab360a208"
+            target="_blank"
+            class="instagram">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="creado-por">
+        <p>Code by <a href="#">Karla Olvera </a><i class="fas fa-heart"></i></p>
+      </div>
+    </footer>
+
+    <!-- SCROLL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
